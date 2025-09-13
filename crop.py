@@ -9,7 +9,7 @@ import traceback
 import pandas as pd
 import numpy as np
 import streamlit as st
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 import seaborn as sns
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import OneHotEncoder, StandardScaler
@@ -288,5 +288,6 @@ if sub:
 
 st.markdown("---")
 st.caption("Tip: If you still see errors, open the 'Exception' trace shown above and paste it here. The trace gives exact line numbers and helps me fix the issue quickly.")
+
 
 
